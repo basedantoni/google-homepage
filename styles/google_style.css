@@ -4,10 +4,15 @@ body {
 	justify-content: center;
 }
 
-form {
-	width: 100%;
-	text-align: center;
-	padding-top: 150px;
+footer {
+	display: flex;
+    background-color: #F2F2F2;
+    width: 100%;
+    bottom: 0;
+    height: 15px;
+    position: fixed;
+    margin-left: -8px;
+    padding-bottom: 30px;
 }
 
 img {
@@ -18,19 +23,12 @@ img {
 	top: 130px;
 }
 
-div#button{
-	display: block;
-	position: relative;
-	padding-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	color: grey;
-}
-
-li a {
+li a{
 	color: #444;
 	font-family: arial,sans-serif;
-	font-size: 13px;
+	font-size: small;
+	text-decoration: none;
+	padding-left: 10px;
 }
 
 ul {
@@ -39,16 +37,57 @@ ul {
 }
 
 li {
-	padding: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+button{
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background: #F2F2F2;
+	border: 1px solid #f2f2f2;
+	height: 40px ;
+	width: 130px ;
+	color: #757575
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 20px;
 }
 
 .nav-bar {
 	display: flex;
 }
 
-form #bar {
+.foot {
+	display: flex;
+	font-size: small;
+}
+
+.gmail {
+	margin-left: 1000px;
+}
+
+.privacy {
+	padding-left: 1040px;
+}
+
+#container {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	position: fixed;
+	position: relative;
+	text-align: center;
+}
+
+#bar {
+	width: 550px;
+	height: 40px; 
+	border: 0px solid;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 10px;
+}
+
+div.search {
+	display: block;
+	margin: 20px auto;
+	margin-top: 150px;
+	position: relative;
+  	text-align: center; 
 }
